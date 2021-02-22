@@ -4,7 +4,7 @@
 ## Description
 ---
 
-<img align= "right" width=300 height=150 src="https://github.com/Das-Babu/Python/blob/master/Sanke_Game/extra/snake.jpeg">
+<img align= "right" width=300 height=150 src="https://github.com/Das-Babu/Snake_Game/blob/master/extra/snake.jpeg">
 
 **Author** : Susovan Das
 
@@ -30,12 +30,12 @@ Go to the terminal and write
 ## Pictures
 ---
 
-![welcome_page](https://github.com/Das-Babu/Python/blob/master/Sanke_Game/extra/welcome_page.jpg "Welcome Page")
+![welcome_page](https://github.com/Das-Babu/Snake_Game/blob/master/extra/welcome_page.jpg "Welcome Page")
 
-![game_play](https://github.com/Das-Babu/Python/blob/master/Sanke_Game/extra/game_play1.jpg "Game Play")
+![game_play](https://github.com/Das-Babu/Snake_Game/blob/master/extra/game_play1.jpg "Game Play")
 
-![game_play](https://github.com/Das-Babu/Python/blob/master/Sanke_Game/extra/game_play2.jpg "Game Play")
+![game_play](https://github.com/Das-Babu/Snake_Game/blob/master/extra/game_play2.jpg "Game Play")
 
-![game_over](https://github.com/Das-Babu/Python/blob/master/Sanke_Game/extra/game_over.jpg "Game Over")
+![game_over](https://github.com/Das-Babu/Snake_Game/blob/master/extra/game_over.jpg "Game Over")
 
 
