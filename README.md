@@ -4,7 +4,7 @@
 ## Description
 ---
 
-<img align= "right" width=300 height=150 src="https://github.com/Das-Babu/Snake_Game/blob/master/extra/snake.jpeg">
+<img align= "right" width=300 height=150 src="https://github.com/Das-Babu/Snake_Game/blob/master/resources/w_page_bgimg.jpeg">
 
 **Author** : Susovan Das
 
@@ -30,12 +30,16 @@ Go to the terminal and write
 ## Pictures
 ---
 
-![welcome_page](https://github.com/Das-Babu/Snake_Game/blob/master/extra/welcome_page.jpg "Welcome Page")
+![welcome_page](https://github.com/Das-Babu/Snake_Game/blob/master/readme_helper/welcome_screen.png "Welcome Page")
 
-![game_play](https://github.com/Das-Babu/Snake_Game/blob/master/extra/game_play1.jpg "Game Play")
+![gameplay](https://github.com/Das-Babu/Snake_Game/blob/master/readme_helper/gameplay1.png "Game Play")
 
-![game_play](https://github.com/Das-Babu/Snake_Game/blob/master/extra/game_play2.jpg "Game Play")
+![gameplay](https://github.com/Das-Babu/Snake_Game/blob/master/readme_helper/gameplay1.png "Game Play")
 
-![game_over](https://github.com/Das-Babu/Snake_Game/blob/master/extra/game_over.jpg "Game Over")
+![game_paused](https://github.com/Das-Babu/Snake_Game/blob/master/readme_helper/game_paused.png "Game Paused")
+
+![game_over](https://github.com/Das-Babu/Snake_Game/blob/master/readme_helper/game_over1.png "Game Over")
+
+![game_over](https://github.com/Das-Babu/Snake_Game/blob/master/readme_helper/game_over2.jpg "Game Over")
 
 
