@@ -34,12 +34,12 @@ Go to the terminal and write
 
 ![gameplay](https://github.com/Das-Babu/Snake_Game/blob/master/readme_helper/gameplay1.png "Game Play")
 
-![gameplay](https://github.com/Das-Babu/Snake_Game/blob/master/readme_helper/gameplay1.png "Game Play")
+![gameplay](https://github.com/Das-Babu/Snake_Game/blob/master/readme_helper/gameplay2.png "Game Play")
 
 ![game_paused](https://github.com/Das-Babu/Snake_Game/blob/master/readme_helper/game_paused.png "Game Paused")
 
 ![game_over](https://github.com/Das-Babu/Snake_Game/blob/master/readme_helper/game_over1.png "Game Over")
 
-![game_over](https://github.com/Das-Babu/Snake_Game/blob/master/readme_helper/game_over2.jpg "Game Over")
+![game_over](https://github.com/Das-Babu/Snake_Game/blob/master/readme_helper/game_over2.png "Game Over")
 
 

@@ -28,18 +28,33 @@ clock = pygame.time.Clock()
 
 
 def text_screen(text, color,font_size, x, y):
+    '''
+    this is a function for writting text on the screen
+    'test' -(str)->  string that will be display
+    'color' -(touple)->  the color in which the text will be print
+    'font_size' -(int)-> the size of the font 
+    'x,y' -(int)->  the cordinate where text will be printed
+    '''
+
     font = pygame.font.SysFont(None, font_size)
     screen_text = font.render(text, True, color)
     gameWindow.blit(screen_text, [x,y])
 
 
 def plot_snake(gameWindow, color, snake_body, snake_size):
+    '''
+    this function plot the snakke in the screen  
+    '''
+    
     for x,y in snake_body[:-1]:
         pygame.draw.rect(gameWindow, color[1], [x, y, snake_size, snake_size])
     x,y = snake_body[-1]
     pygame.draw.rect(gameWindow, color[0], [x, y, snake_size, snake_size])
 
 def welcome_screen():
+    '''
+    this function create the welcome screen
+    '''
     
     # Background Image for Welcome Screen
     bgimg = pygame.image.load("resources/w_page_bgimg.jpeg")
@@ -50,6 +65,7 @@ def welcome_screen():
     pygame.mixer.music.load('resources/bmg.ogg')
     pygame.mixer.music.play(-1)
 
+    # print test on the screen
     text_screen("Welcome To Snack Game",red,50,190,200)
     text_screen("Press Any Key to Start",black,50,220,250)
     pygame.display.update()
@@ -65,10 +81,16 @@ def welcome_screen():
 
 
 def game_paused():
+    '''
+    this function helps to pause the game
+    '''
+
     text_screen("Game Paused",black,65,270,200)
     text_screen("Press Spacebar to Continue",black,50,200,250)
     pygame.display.update()
+    
     pygame.mixer.music.pause()
+    
     while True:
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
@@ -82,13 +104,19 @@ def game_paused():
 
 
 def game_over():
+    '''
+    this is a function for the game over method
+    '''
+    
     text_screen("Game Over",black,65,290,200)
     text_screen("Press Enter to Continue",black,50,220,250)
 
     pygame.mixer.music.pause()
     sound= pygame.mixer.Sound("resources/game_over.ogg")
     pygame.mixer.Sound.play(sound)
+
     pygame.display.update()
+    
     while True:
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
@@ -102,10 +130,11 @@ def game_over():
 
 # Creating a game loop
 def game_loop():
-    
+    '''
+    this is the main function the runs the game
+    '''
     # Game specific variables
     exit_game = False
-    gameOver = False
 
     snake_x = screen_width/2
     snake_y = screen_height/2
@@ -113,11 +142,9 @@ def game_loop():
     snake_body = []
     snake_length = 1
 
-
     velocity = 3
     velocity_x = velocity
     velocity_y = 0
-
 
     move_x = False
     move_y = True
@@ -155,14 +182,15 @@ def game_loop():
                     move_y = False
                 if event.key == pygame.K_SPACE:
                     game_paused()
-                    
         
+        # snake possition updating             
         snake_x = snake_x + velocity_x
         snake_y = snake_y + velocity_y
         
         snake_head = [snake_x,snake_y]
         snake_body.append(snake_head)
         
+        # game condition/rules
         if len(snake_body)>snake_length:
             del snake_body[0]
         
@@ -181,7 +209,7 @@ def game_loop():
             food_y = random.randint(100, screen_height - 30)
             snake_length = snake_length + 5
         
-        
+        # game Window
         gameWindow.fill(white)
         pygame.draw.rect(gameWindow,red,[0,70,screen_width,screen_height - 70],10)
         text_screen(f"Player Score: {score * 10}", black, 55, 5, 5)
