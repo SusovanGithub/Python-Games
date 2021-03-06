@@ -23,6 +23,7 @@ pygame.display.set_caption("Snake Game")
 pygame.display.update()
 
 
+play_music = True
 fps = 30
 clock = pygame.time.Clock()
 
@@ -69,7 +70,6 @@ def welcome_screen():
     text_screen("Welcome To Snack Game",red,50,190,200)
     text_screen("Press Any Key to Start",black,50,220,250)
     pygame.display.update()
-
     while True:
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
@@ -84,7 +84,6 @@ def game_paused():
     '''
     this function helps to pause the game
     '''
-
     text_screen("Game Paused",black,65,270,200)
     text_screen("Press Spacebar to Continue",black,50,200,250)
     pygame.display.update()
@@ -135,6 +134,7 @@ def game_loop():
     '''
     # Game specific variables
     exit_game = False
+    global play_music
 
     snake_x = screen_width/2
     snake_y = screen_height/2
@@ -182,7 +182,14 @@ def game_loop():
                     move_y = False
                 if event.key == pygame.K_SPACE:
                     game_paused()
-        
+                if event.key == pygame.K_m:
+                    if play_music:
+                        pygame.mixer.music.pause()
+                        play_music = False
+                    else:
+                        pygame.mixer.music.play()
+                        play_music = True
+
         # snake possition updating             
         snake_x = snake_x + velocity_x
         snake_y = snake_y + velocity_y
