@@ -27,7 +27,7 @@ So use the package manager [pip](https://pypi.org/project/pip/) to install those
 pip install pygame==2.0.1
 ```
 
-## Usage
+## How to Use
 
 You can run this by simply double clicking the _snake_game.py_ files.  
 Or you can use the Command Prompt/Terminal and `python snake_game.py`.  
