@@ -3,15 +3,15 @@
 
 ## Description
 
-<img align= "right" height=45 src="snake_game.gif">
+<img align= "right" width=40% src="https://github.com/SusovanGithub/Python-Games/blob/master/Assets/snake_game.gif">
 
 **Author** : Susovan Das
 
 **Language** : Python
 
-**Version** : 1.0
+**Version** : 1.3
 
-This is a classic game of Snake. This game written in _Python_ language and i use the _PyGame_ Module to create this.
+This is a classic game of Snake. This game written in _Python_ language and i use the [_PyGame_](https://www.pygame.org/news) Module to create this.
 
 ## How to Download
 
