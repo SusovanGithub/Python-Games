@@ -43,7 +43,7 @@ def text_screen(text, color,font_size, x, y):
 
 def plot_snake(gameWindow, color, snake_body, snake_size):
     '''
-    this function plot the snakke in the screen  
+    this function plot the snake in the screen  
     '''
     for x,y in snake_body[:-1]:
         pygame.draw.rect(gameWindow, color[1], [x, y, snake_size, snake_size])
