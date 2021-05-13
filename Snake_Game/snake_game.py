@@ -4,7 +4,7 @@ import random
 pygame.init()
 pygame.mixer.init()
 
-# Color
+# * Color
 black = (0,0,0)
 white = (255,255,255)
 red = (255,0,0)
@@ -12,13 +12,13 @@ forest_green = 	(34,100,34)
 green = (0,128,0)
 blue = (0,0,255)
 
-# Creating window
+# * Creating window
 screen_width = 800
 screen_height = 500
 gameWindow = pygame.display.set_mode((screen_width,screen_height))
 
 
-# Creating Title
+# * Creating Title
 pygame.display.set_caption("Snake Game")
 pygame.display.update()
 
@@ -36,7 +36,6 @@ def text_screen(text, color,font_size, x, y):
     'font_size' -(int)-> the size of the font 
     'x,y' -(int)->  the cordinate where text will be printed
     '''
-
     font = pygame.font.SysFont(None, font_size)
     screen_text = font.render(text, True, color)
     gameWindow.blit(screen_text, [x,y])
@@ -46,7 +45,6 @@ def plot_snake(gameWindow, color, snake_body, snake_size):
     '''
     this function plot the snakke in the screen  
     '''
-    
     for x,y in snake_body[:-1]:
         pygame.draw.rect(gameWindow, color[1], [x, y, snake_size, snake_size])
     x,y = snake_body[-1]
@@ -56,9 +54,8 @@ def welcome_screen():
     '''
     this function create the welcome screen
     '''
-    
     # Background Image for Welcome Screen
-    bgimg = pygame.image.load("resources/w_page_bgimg.jpeg")
+    bgimg = pygame.image.load("resources/welcome_page.jpeg")
     bgimg = pygame.transform.scale(bgimg, (screen_width, screen_height)).convert_alpha()
     gameWindow.blit(bgimg, (0,0))
 
