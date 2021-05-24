@@ -17,6 +17,9 @@ class Game:
     def __init__(self):
         self.root = Tk()
         self.root.geometry('318x400')
+        self.root.title('Tic Tac Toe')
+        self.root.maxsize(318,400)
+        self.root.minsize(318,400)
         self.count = 0
         self.welcome_screen()
         self.root.mainloop()
