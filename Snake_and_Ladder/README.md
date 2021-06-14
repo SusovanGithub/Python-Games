@@ -22,4 +22,4 @@ To download this game Click this --> &nbsp; &nbsp; [<img src="https://github.com
 This game is created by using _tkinter_.
 
 <!--Inner Links-->
-[DownGit]: https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/SusovanGithub/Python-Games/Snake&Ladder
+[DownGit]: https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/SusovanGithub/Python-Games/Snake_and_Ladder
