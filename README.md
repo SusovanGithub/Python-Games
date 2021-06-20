@@ -21,6 +21,6 @@ All games are listed here
 This is a Terminal based game to run this type in terminal `python snake_water_gun.py`
 
 <br>
-<h3 align = "center"> Show some ❤️ by starring some of the repositories!</h3>
+<h3 align = "center"> Show some ❤️ by starring this repository</h3>
 
 
