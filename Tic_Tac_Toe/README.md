@@ -1,5 +1,5 @@
 #
-**<H1 align = "center">Tic Tac Toe<img align= "center" height=45 src="assets/icon.png"></H1>**
+**<H1 align = "center">Tic Tac Toe</H1>**
 
 ## Description
 
