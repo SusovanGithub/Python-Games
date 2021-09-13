@@ -3,7 +3,7 @@
 
 ## Description
 
-<img align= "right" width=40% src="https://github.com/DasBabuGH/Python-Games/blob/master/Assets/snake_game.gif">
+<img align= "right" width=40% src="https://github.com/SusovanGithub/Python-Games/blob/master/Assets/snake_game.gif">
 
 **Author** : Susovan Das
 
@@ -15,7 +15,7 @@ This is a classic game of Snake. This game written in _Python_ language and i us
 
 ## How to Download
 
-To download this game Click this --> &nbsp; &nbsp; [<img src="https://github.com/DasBabuGH/Python-Games/blob/master/Assets/.download_icon.png" width="20" height="20"/>][DownGit]
+To download this game Click this --> &nbsp; &nbsp; [<img src="https://github.com/SusovanGithub/Python-Games/blob/master/Assets/.download_icon.png" width="20" height="20"/>][DownGit]
 
 ## Requirements
 
@@ -41,4 +41,4 @@ Or you can use the Command Prompt/Terminal and `python snake_game.py`.
 * To Pause the game press _Space Bar_.
 
 <!--Inner Links-->
-[DownGit]: https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/DasBabuGH/Python-Games/Snake_Game
+[DownGit]: https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/SusovanGithub/Python-Games/Snake_Game

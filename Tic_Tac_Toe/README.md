@@ -3,7 +3,7 @@
 
 ## Description
 
-<img align= "right" width=40% src="https://github.com/DasBabuGH/Python-Games/blob/master/Assets/tic_tac_toe.gif">
+<img align= "right" width=40% src="https://github.com/SusovanGithub/Python-Games/blob/master/Assets/tic_tac_toe.gif">
 
 **Author** : Susovan Das
 
@@ -15,11 +15,11 @@ This is a classic Tic Tac Toe Game. This game written in _Python_ language with 
 
 ## How to Download
 
-To download this game Click this --> &nbsp; &nbsp; [<img src="https://github.com/DasBabuGH/Python-Games/blob/master/Assets/.download_icon.png" width="20" height="20"/>][DownGit]
+To download this game Click this --> &nbsp; &nbsp; [<img src="https://github.com/SusovanGithub/Python-Games/blob/master/Assets/.download_icon.png" width="20" height="20"/>][DownGit]
 
 ## Requirements
 
 This game is created by using _tkinter_.
 
 <!--Inner Links-->
-[DownGit]: https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/DasBabuGH/Python-Games/Tic_Tac_Toe
+[DownGit]: https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/SusovanGithub/Python-Games/Tic_Tac_Toe

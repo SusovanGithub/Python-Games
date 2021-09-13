@@ -11,6 +11,7 @@ This Repository contents Game which are created using Python.
 
 All games are listed here
 
+* [Stone Paper Scissors](https://github.com/SusovanGithub/stone-paper-scissors-game) ( this game is deployed in heroku for visit [click here](https://stone-paper-scissors-game.herokuapp.com/). )
 * [Snake and Ladder](Snake_and_Ladder/)
 * [Clasic Snake Game](Snake_Game/)
 * [Tic Tac Toe](Tic_Tac_Toe/)
