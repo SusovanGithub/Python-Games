@@ -1,5 +1,9 @@
 #
 **<H1 align = "center">Games in Python</H1>**
+<!-- all project gif combined -->
+<div align="center">
+    <img height=30% src='Assets/Python_game_main_gif.gif'/>
+</div>
 
 ## Description
 
